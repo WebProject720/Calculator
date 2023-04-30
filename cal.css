@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(60deg,rgb(42, 125, 227),rgb(237, 3, 249),rgb(11, 177, 243));
+    height: 97.5vh;
+}
+
+main {
+    background-color: black;
+    background-color: transparent;
+    padding: 15px;
+    width: 250px;
+    height: 400px;
+    margin-top: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+span {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+#div2 {
+    height: 280px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 8px;
+    column-gap: 8px;
+}
+
+#screen {
+    width: 230px;
+    height: 40px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border: 0px;
+    color: white;
+}
+#screen:focus{
+    outline: 0px;
+}
+#form1{
+    padding: 5px;
+}
+.all {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.btn-special {
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.btn {
+    gap: 25px;
+}
+
+#restart {
+    padding-top: 4px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: large;
+}

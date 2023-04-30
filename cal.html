@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculeter</title>
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <main class="container">
+        <span id="div1">
+            <form id="form1" action="">
+                <input id="screen" type="text">
+            </form>
+        </span>
+        <button onclick="restart()" id="restart">Clear</button>
+        <span id="div2">
+            <form action="" id="form2">
+                <!-- <input type="button" onclick="clearScreen()" class="btn btn-special" value="Clear"> -->
+                <input type="button" class="btn all" onclick='onclickFun(".")' id="." value=".">
+                <input type="button" class="btn all" onclick='onclickFun("+")' id="+" value="+">
+                <input type="button" class="btn all" onclick='onclickFun("-")' id="-" value="-">
+                <input type="button" class="btn all" onclick='onclickFun("*")' id="*" value="*">
+                <input type="button" class="btn all" onclick='onclickFun("1")' id="1" value="1">
+                <input type="button" class="btn all" onclick='onclickFun("2")' id="2" value="2">
+                <input type="button" class="btn all" onclick='onclickFun("3")' id="3" value="3">
+                <input type="button" class="btn all" onclick='onclickFun("/")' id="/" value="/">
+                <input type="button" class="btn all" onclick='onclickFun("4")' id="4" value="4">
+                <input type="button" class="btn all" onclick='onclickFun("5")' id="5" value="5">
+                <input type="button" class="btn all" onclick='onclickFun("6")' id="6" value="6">
+                <input type="button" class="btn all" onclick='onclickFun("0")' id="0" value="0">
+                <input type="button" class="btn all" onclick='onclickFun("7")' id="7" value="7">
+                <input type="button" class="btn all" onclick='onclickFun("8")' id="8" value="8">
+                <input type="button" class="btn all" onclick='onclickFun("9")' id="9" value="9">
+                <input type="button" onclick="EnterBtn()" class="btn btn-special " value="Enter">
+            </form>
+        </span>
+    </main>
+</body>
+<script src="cal.js"></script>
+
+</html>
